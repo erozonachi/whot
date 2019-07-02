@@ -57,3 +57,23 @@ export const SmallSize = styled.div`
     height: width;
   }
 `;
+
+export const GameCard = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 80%;
+  padding: 25px 0;
+  position: relative;
+  > div {
+    &:first-of-type {
+      top: 0;
+      left: 0;
+    }
+    &:last-of-type {
+      bottom: 0;
+      right: 0;
+    }
+  }
+`;
