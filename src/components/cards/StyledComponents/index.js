@@ -40,3 +40,20 @@ export const NormalSize = styled.div`
     height: width;
   }
 `;
+
+export const SmallSize = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  position: absolute;
+  color: #200122;
+  > div {
+    background: #200122;
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);
+    background: linear-gradient(to right, #6f0000, #200122);
+    width: 30px;
+    height: width;
+  }
+`;
