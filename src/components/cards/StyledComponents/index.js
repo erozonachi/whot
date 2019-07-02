@@ -15,3 +15,8 @@ export const Cross = styled.div`
   -webkit-clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
   clip-path: polygon(10% 25%, 35% 25%, 35% 0%, 65% 0%, 65% 25%, 90% 25%, 90% 50%, 65% 50%, 65% 100%, 35% 100%, 35% 50%, 10% 50%);
 `;
+
+export const Square = styled.div`
+  -webkit-clip-path: inset(10% 10% 10% 10%);
+  clip-path: inset(10% 10% 10% 10%);
+`;
