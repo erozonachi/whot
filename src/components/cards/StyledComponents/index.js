@@ -20,3 +20,8 @@ export const Square = styled.div`
   -webkit-clip-path: inset(10% 10% 10% 10%);
   clip-path: inset(10% 10% 10% 10%);
 `;
+
+export const Star = styled.div`
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+`;
