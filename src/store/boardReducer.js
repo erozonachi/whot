@@ -36,6 +36,15 @@ export function boardReducer(state = initialState, action) {
         },
         marketArea: action.marketArea,
       };
+    case types.GENERAL_MARKET:
+      return {
+        ...state,
+        playersCards: {
+          ...state.playersCards,
+          ...action.playersCards,
+        },
+        marketArea: action.marketArea,
+      };
     case types.PICK_TWO:
       return {
         ...state,
