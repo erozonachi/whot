@@ -23,36 +23,36 @@ export function boardReducer(state = initialState, action) {
         ...state,
         playersCards: {
           ...state.playersCards,
-          ...action.playersCards,
+          ...action.payload.playersCards,
         },
-        marketArea: action.marketArea,
+        marketArea: action.payload.marketArea,
       };
     case types.GO_MARKET:
       return {
         ...state,
         playersCards: {
           ...state.playersCards,
-          ...action.playersCards,
+          ...action.payload.playersCards,
         },
-        marketArea: action.marketArea,
+        marketArea: action.payload.marketArea,
       };
     case types.GENERAL_MARKET:
       return {
         ...state,
         playersCards: {
           ...state.playersCards,
-          ...action.playersCards,
+          ...action.payload.playersCards,
         },
-        marketArea: action.marketArea,
+        marketArea: action.payload.marketArea,
       };
     case types.PICK_TWO:
       return {
         ...state,
         playersCards: {
           ...state.playersCards,
-          ...action.playersCards,
+          ...action.payload.playersCards,
         },
-        marketArea: action.marketArea,
+        marketArea: action.payload.marketArea,
       };
     default:
       return {
