@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const Circle = styled.div`
   -webkit-clip-path: circle(50% at 50% 50%);
   clip-path: circle(50% at 50% 50%);
-  width: ${props.small? '30px' : '80%'};
 `;
 
 export const Triangle = styled.div`
@@ -36,8 +35,8 @@ export const NormalSize = styled.div`
     background: #200122;
     background: -webkit-linear-gradient(to right, #6f0000, #200122);
     background: linear-gradient(to right, #6f0000, #200122);
-    width:80%;
-    height: width;
+    width:70%;
+    height: 350px;
   }
 `;
 
@@ -54,7 +53,7 @@ export const SmallSize = styled.div`
     background: -webkit-linear-gradient(to right, #6f0000, #200122);
     background: linear-gradient(to right, #6f0000, #200122);
     width: 30px;
-    height: width;
+    height: 30px;
   }
 `;
 
@@ -62,10 +61,12 @@ export const GameCard = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 500px;
+  max-width: 400px;
   width: 80%;
-  padding: 25px 0;
+  padding: 100px 0;
   position: relative;
+  border-radius: 10px;
+  box-shadow: 4px 3px 3px 4px #ccc;
   > div {
     &:first-of-type {
       top: 0;

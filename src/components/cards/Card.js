@@ -1,18 +1,22 @@
 import React from 'react';
 import { GameCard, SmallSize, NormalSize, Cross, } from './StyledComponents';
 
-export default function Card(props) {
+function Card(props) {
   return (
     <GameCard>
       <SmallSize>
         <Cross />
-        <h4>5</h4>
+        <h3>5</h3>
       </SmallSize>
-      <NormalSize />
+      <NormalSize>
+        <Cross />
+      </NormalSize>
       <SmallSize>
         <Cross />
-        <h4>5</h4>
+        <h3>5</h3>
       </SmallSize>
     </GameCard>
   );
 }
+
+export default Card;
