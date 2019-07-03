@@ -64,9 +64,11 @@ export const GameCard = styled.div`
   max-width: 400px;
   width: 80%;
   padding: 100px 0;
+  margin: .5em auto;
   position: relative;
   border-radius: 10px;
-  box-shadow: 4px 3px 3px 4px #ccc;
+  background: white;
+  box-shadow: 4px 3px 3px 4px #ddd;
   > div {
     &:first-of-type {
       top: 0;
