@@ -45,8 +45,8 @@ export const Nav = styled.div`
 export const SideBarContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   position: fixed;
   top: 60px;
   left: 0;
@@ -54,10 +54,11 @@ export const SideBarContainer = styled.div`
   background: transparent;
   color: #200122;
   font-family: 'El Messiri', sans-serif;
-  z-index: 999;
+  font-size: 2.0rem;
+  z-index: 9999;
   > a {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: .5em;
     color: inherit;
@@ -68,6 +69,7 @@ export const SideBarContainer = styled.div`
     > strong {
       font-weight: bold;
       display: none;
+      padding: 0 .5em;
     }
   }
   &:hover {
