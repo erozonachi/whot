@@ -8,8 +8,10 @@ export const Nav = styled.div`
   height: 60px;
   position: fixed;
   top: 0;
+  left: 0;
   background: transparent;
   color: #200122;
+  z-index: 999;
   &:hover {
     background: #200122;
     background: -webkit-linear-gradient(to right, #6f0000, #200122);
@@ -21,15 +23,19 @@ export const Nav = styled.div`
     font-weight: bold;
     font-family: 'Monoton', cursive;
     text-align: center;
-    border-right: .5em solid #ddd;
-    border-left: .5em solid #ddd;
+    padding: 0 .25em;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
   }
   > button {
     font-size: 2.0rem;
     font-family: 'El Messiri', sans-serif;
     outline: none;
-    border: .25em solid #ddd;
-    border-radius: .5em;
+    background: inherit;
+    color: inherit;
+    padding: .25em;
+    border: 1px solid #ddd;
+    border-radius: .25em;
     position: absolute;
     right: 0;
     margin: 0 .25em;
