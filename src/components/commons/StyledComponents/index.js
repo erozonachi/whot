@@ -39,6 +39,7 @@ export const Nav = styled.div`
     position: absolute;
     right: 0;
     margin: 0 .25em;
+    cursor: pointer;
   }
 `;
 
